@@ -1,0 +1,11 @@
+C:\Users\alice\source\repos\CadastroFuncionario\CadastroFuncionario\bin\Debug\CadastroFuncionario.exe.config
+C:\Users\alice\source\repos\CadastroFuncionario\CadastroFuncionario\bin\Debug\CadastroFuncionario.exe
+C:\Users\alice\source\repos\CadastroFuncionario\CadastroFuncionario\bin\Debug\CadastroFuncionario.pdb
+C:\Users\alice\source\repos\CadastroFuncionario\CadastroFuncionario\obj\Debug\CadastroFuncionario.csproj.AssemblyReference.cache
+C:\Users\alice\source\repos\CadastroFuncionario\CadastroFuncionario\obj\Debug\CadastroFuncionario.csproj.SuggestedBindingRedirects.cache
+C:\Users\alice\source\repos\CadastroFuncionario\CadastroFuncionario\obj\Debug\CadastroFuncionario.Form1.resources
+C:\Users\alice\source\repos\CadastroFuncionario\CadastroFuncionario\obj\Debug\CadastroFuncionario.Properties.Resources.resources
+C:\Users\alice\source\repos\CadastroFuncionario\CadastroFuncionario\obj\Debug\CadastroFuncionario.csproj.GenerateResource.cache
+C:\Users\alice\source\repos\CadastroFuncionario\CadastroFuncionario\obj\Debug\CadastroFuncionario.csproj.CoreCompileInputs.cache
+C:\Users\alice\source\repos\CadastroFuncionario\CadastroFuncionario\obj\Debug\CadastroFuncionario.exe
+C:\Users\alice\source\repos\CadastroFuncionario\CadastroFuncionario\obj\Debug\CadastroFuncionario.pdb
