@@ -17,7 +17,7 @@ public class Funcionario
     {
         if (funcao == "MEDICO")
         {
-            salario = (salario * 20) / 100 + salario;
+            salario = (salario * 20) /100 + salario;
         }
 
         else if (funcao == "TI")
@@ -27,7 +27,7 @@ public class Funcionario
 
         else if (funcao == "ADM")
         {
-            salario = ((salario * 15) / 100) + 200 + salario;
+            salario = ((salario * 15) /100) + 200 + salario;
         }
 
 
