@@ -30,45 +30,17 @@ namespace CadastroFuncionario
 
         private void cadastrar_tx_Click(object sender, EventArgs e)
         {
+            
             //botão cadastrar
             int matricula = Convert.ToInt32(matricula_tx.Text);
             string nome = matricula_tx.Text;
             string cpf = cpf_txt.Text;
-            double salariofim = Convert.ToDouble(salariofim_tx.Text);
-            double salario = Convert.ToDouble(salario_txt.Text);
+            double salario = Convert.ToDouble(salario1_tx.Text);
             string funcao = funcao_tx.Text;
-            double irpf;
-     
-            if (funcao == "MEDICO")
-            {
-                salario = salario * (20 / 100);
-            }
-            
-            else if (funcao == "TI")
-            {
-                salario = salario + 5.600;
-            }
 
-            else if (funcao == "ADM")
-            {
-                salario = salario * (15 / 100) + 200;
+            Funcionario f = new Funcionario(salario, funcao);
+            MessageBox.Show(f.CalcularSalario(salario, funcao).ToString());
 
-            }
-
-            if (salario > 5000)
-            {
-                irpf = salariofim * (17 / 100);
-                salariofim = salariofim - irpf;
-            }
-
-            else
-            {
-                irpf = 0;
-                salariofim = salario;
-            }
-
-            salariofim = Convert.ToDouble(salariofim_tx.Text);
-            MessageBox.Show(salariofim.ToString());
 
         }
 
@@ -83,6 +55,11 @@ namespace CadastroFuncionario
         }
 
         private void salario_txt_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void funcao_tx_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

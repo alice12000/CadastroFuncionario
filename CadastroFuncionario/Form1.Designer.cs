@@ -36,7 +36,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.matricula_tx = new System.Windows.Forms.TextBox();
             this.nome_tx = new System.Windows.Forms.TextBox();
-            this.salario_txt = new System.Windows.Forms.TextBox();
+            this.salario1_tx = new System.Windows.Forms.TextBox();
             this.funcao_tx = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.salariototal_tx = new System.Windows.Forms.Label();
@@ -119,13 +119,13 @@
             this.nome_tx.Size = new System.Drawing.Size(121, 22);
             this.nome_tx.TabIndex = 7;
             // 
-            // salario_txt
+            // salario1_tx
             // 
-            this.salario_txt.Location = new System.Drawing.Point(567, 151);
-            this.salario_txt.Name = "salario_txt";
-            this.salario_txt.Size = new System.Drawing.Size(100, 22);
-            this.salario_txt.TabIndex = 8;
-            this.salario_txt.TextChanged += new System.EventHandler(this.salario_txt_TextChanged);
+            this.salario1_tx.Location = new System.Drawing.Point(567, 151);
+            this.salario1_tx.Name = "salario1_tx";
+            this.salario1_tx.Size = new System.Drawing.Size(100, 22);
+            this.salario1_tx.TabIndex = 8;
+            this.salario1_tx.TextChanged += new System.EventHandler(this.salario_txt_TextChanged);
             // 
             // funcao_tx
             // 
@@ -138,6 +138,7 @@
             this.funcao_tx.Name = "funcao_tx";
             this.funcao_tx.Size = new System.Drawing.Size(121, 24);
             this.funcao_tx.TabIndex = 9;
+            this.funcao_tx.SelectedIndexChanged += new System.EventHandler(this.funcao_tx_SelectedIndexChanged);
             // 
             // label7
             // 
@@ -235,7 +236,7 @@
             this.Controls.Add(this.salariototal_tx);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.funcao_tx);
-            this.Controls.Add(this.salario_txt);
+            this.Controls.Add(this.salario1_tx);
             this.Controls.Add(this.nome_tx);
             this.Controls.Add(this.matricula_tx);
             this.Controls.Add(this.label6);
@@ -262,7 +263,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox matricula_tx;
         private System.Windows.Forms.TextBox nome_tx;
-        private System.Windows.Forms.TextBox salario_txt;
+        private System.Windows.Forms.TextBox salario1_tx;
         private System.Windows.Forms.ComboBox funcao_tx;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label salariototal_tx;
